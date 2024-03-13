@@ -1,0 +1,30 @@
+.head{
+    display: flex;
+    margin: 15px 0px 0px 100px;
+    font-size: xxx-large;
+}
+.para{
+    margin: 15px 0px 0px 255px;
+}
+.buttonmain{
+    height: 50px;
+    width: 155px;
+    margin: 25px 0px 0px 600px;
+    background-color: #35A848;
+    color: white;
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.containermain{
+    width: 98vw;
+    height: 80vh;
+    background-image: url(https://unlistedzone.com/frontend/img/bull-bulb-line.png);
+    
+}
+.imagemain{
+    height: 200px;
+    margin: 25px 2px 2px 550px;
+}
