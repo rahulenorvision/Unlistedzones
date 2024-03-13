@@ -40,8 +40,9 @@
     margin: 3em 5em 0em 2em;
 }
 .row1{
-    margin: 5em 0em 0em 0em;
+    margin: 5em 1em 0em 1em;
     background-color: #d5e9fa;
+    border-radius: 15px;
 }
 .row1>h1{
     padding: 1em 0em 0em 9em;
@@ -144,6 +145,7 @@
     justify-content: space-evenly;
     background-color:  #e1ecf6;
     margin: 2em 1em 1em 1em;
+    border-radius: 15px 
 }
 #navup12{
     padding: 0em 10em 0em 5em ;
