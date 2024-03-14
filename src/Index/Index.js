@@ -22,8 +22,8 @@ export default function Index() {
   <TablePage/>
   <BodyLower/>
   <Testimonial/>
-  <EndPage/>
-  <Footer/> */}
+  <EndPage/> */}
+  {/* <Footer/> */}
   </>
     )
 }
