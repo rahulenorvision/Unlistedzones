@@ -12,10 +12,20 @@ import Accordianleft from './Accordianleft';
 import mail from './mail.png';
 import call from './call.png';
 import location from './location.png';
+import partner from './partner.jpg';
+import Navbar from '../../Navbar/Navbar';
+import Footer from "../../Footer/Footer";
 
 export default function SellIPOShares (){
     return(
         <>
+        <Navbar/>
+               <div>
+            <hr style={{width: "50em",margin: "0.5em 0em 0em 29em",color: "darkgray" }}/>
+        <h1 style={{padding:"1.5em 0em 0em 6em",fontSize: "4em"}}>Become Our Partner</h1>
+        <p style={{padding: "0em 0em 0em 17em",fontSize: "x-large"}}>Come And Join Unlistedzone's Partner Program</p>
+        <img src={partner} alt="partnerImage" style={{width: "20em",height: "20em",    margin:"2em 0em 0em 31em"}}/>
+        </div>
         <div style={{display:"flex",backgroundColor: "#9494ff38",margin:"1em"}}>
         <div style={{width: "40em",height:"35em",padding: "8em 0em 0em 4em"}}>
         <h1>Sell Pre IPO Shares and Earn Commission At <div style={{color:"green"}}>Zero</div> Investment</h1>
@@ -138,6 +148,7 @@ export default function SellIPOShares (){
                 <p>Partners@Unlistedzone.com</p>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

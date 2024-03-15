@@ -13,10 +13,13 @@ import gre from './gre.png';
 import madhur from './madhur.jpeg';
 import tbiCorn from './tbiCorn.png';
 import AccordionRaiseFunding from './Accordian';
+import Navbar from '../../Navbar/Navbar';
+import Footer from '../../Footer/Footer';
 
 export default function RaiseFunding(){
     return(
         <>
+        <Navbar/>
         <div className='decktop'>
         <hr />
         <h1>Help Companies With Deck To Raise Funds</h1>
@@ -167,6 +170,7 @@ export default function RaiseFunding(){
                     <p>Find Answers To Common Questions That You May Have In Your Mind</p>
                     <AccordionRaiseFunding/>
                 </div>
+                <Footer/>
         </>
     )
 }

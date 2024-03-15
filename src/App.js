@@ -1,16 +1,10 @@
-import Index from './Index/Index';
-import BecomeOurPartner from './components/BecomeOurPartner/BecomeOurPartner';
-import SellIPOShares from './components/BecomeOurPartner/SellIPOShares/SellIPOShares';
-import RaiseFunding from './components/BecomeOurPartner/RaiseFunding/RaiseFunding';
+import AllPages from './Pages/AllPages';
 
 
 function App() {
   return (
     <>
-  {/* <BecomeOurPartner/> */}
-  {/* <SellIPOShares/> */}
-  <RaiseFunding/>
-  <Index/>
+  <AllPages/>
   </>
   );
 }
