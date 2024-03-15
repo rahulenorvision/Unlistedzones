@@ -7,7 +7,7 @@ export default function Contact(){
         <Navbar/>
         <div className="formup">
         <h1>Contact Us</h1>
-        <p id='contpara'> Don't Be Shy Just Tell Us About Yourself And We'll Figure Out The Best Option For You And Your Project.Don't Like Filling Up Forms? Mail Us Then <a href="/">partners@unlistedzone.com</a></p>
+        <p id='contpara'> Dont Be Shy Just Tell Us About Yourself And We'll Figure Out The Best Option For You And Your Project.Don't Like Filling Up Forms? Mail Us Then <a href="/">partners@unlistedzone.com</a></p>
         <form>
             <div className="input">
             <div className="input1">
